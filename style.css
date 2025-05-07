@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 500px;
+}
+
+
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Ro'yxat */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode input[type="text"] {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: white;
+}
+
+.light-mode button {
+    background-color: #6a5acd;
+    color: white;
+}
